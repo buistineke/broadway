@@ -3,41 +3,46 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-size: 70px;
+h1, h2, h3 {
   font-weight: bold;
 }
 
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 23px;
-}
-
-p{
-  font-size: 14px;
-}
-
-a {
-  color: white;
-}
-
-#main_menu {
-  font-size: 18px;
-}
-
-.header, .payoff {
-  color: white;
-  font-weight: bold;
+.hero {
   background-image: url("../images/the-flatiron-building.png");
   background-position: center;
+  color: white;
 }
+ .hero h1{
+   font-weight: bold;
+   font-size: 70px;
+ }
+
+ .btn-nav {
+   font-size: 18px;
+   color: white;
+ }
+
+ .supporting h2 {
+   font-size: 32px;
+ }
+
+ .supporting h3 {
+   font-size: 23px;
+ }
+
+ .supporting-item p {
+   font-size: 14px;
+ }
+
 
 .footer{
   font-size: 11px;
   color: white;
   background-color: dimgray;
   text-align: left;
+}
+
+.footer-nav a{
+  font-size: 11px;
+  color: white;
 }
